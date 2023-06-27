@@ -5,12 +5,12 @@
  * @str: input
  * Return: print
  */
-void put2(char *str)
+void puts2(char *str)
 {
 	int longi = 0;
 	int t = 0;
 	char *y = str;
-	int o;
+	int 0;
 
 	while (*y != '\0')
 	{
@@ -24,6 +24,6 @@ void put2(char *str)
 		{
 			_putchar(str[o]);
 		}
-	}
+		}
 	_putchar('\n');
 }
