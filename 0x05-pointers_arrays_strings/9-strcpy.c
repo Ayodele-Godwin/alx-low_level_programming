@@ -2,7 +2,7 @@
 
 /**
  * char *_strcpy - a function that copies the string pointed to by src
- * @dest: cophy to
+ * @dest: copy to
  * @src: copy from
  * Return: string
  */
@@ -15,7 +15,7 @@ char *_strcpy(char *dest, char *src)
 	{
 		I++;
 	}
-	for (; x < I; x++)
+	for (; X < I; X++)
 	{
 		dest[X] = src[X];
 	}
